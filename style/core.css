@@ -1,0 +1,327 @@
+/** Removes the white background from footer which overrides everything **/
+html {
+    background-color: transparent;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/** Background colour of whole page **/
+body {
+    background-color: #FFFFFF;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/** Background colour of the central part where all content is **/
+#page {
+    background-color: #FFFFFF;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    color: #198384;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+/** Header **/
+#page-header {
+    background-image: url([[pix:theme|minimal_top_left]]);
+    background-repeat: no-repeat;
+    background-position: top left;
+    height: 70px;
+    margin: 0;
+}
+
+#page-header-right {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 70px;
+    margin: 0;
+    position: relative;
+}
+
+#page-header-banner {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 70px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.headingtext {
+    height: 25px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+    padding-right: 165px;
+    padding-left: 165px;
+}
+
+h1.headermain {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000000;
+}
+
+.headermain {
+    max-height: 50px;
+    overflow: hidden;
+    float: none;
+}
+
+h2.department {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+.headermenu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    margin-right: 5px;
+}
+
+/* Login in header */
+.headermenu .logininfo {
+    color: #000000;
+    width: 160px;
+}
+
+.headermenu .logininfo a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.headermenu .logininfo a:hover {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+/** Footer **/
+#page-footer {
+    background-color: #FFFFFF;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: 60px;
+}
+
+.footerleft {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    margin-left: 0;
+    margin-bottom: 0;
+    height: 60px;
+}
+
+.footerright {
+    background-image: url([[pix:theme|minimal_footer_right]]);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    margin-right: 0;
+    margin-bottom: 0;
+    height: 60px;
+    position: relative;
+}
+
+.langmenu {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+/** Redirect page settings (like the page after posting to a forum) **/
+
+.redirectmessage {
+    text-align: center;
+}
+.continuebutton {
+    text-align: center;
+}
+
+/* The div directly around the message */
+/*
+div.redirectmessage {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #FF0000;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #FF6666;
+}
+*/
+
+/* The div around the message and continue button */
+/*
+.pagelayout-redirect #content {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #008040;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #CCFF66;
+}
+*/
+
+/* The div for the whole redirect page */
+.pagelayout-redirect #page {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    height: 200px;
+    padding-top: 125px;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #FFFFFF;
+    background-image: url([[pix:theme|minimal_top_left]]);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+/** List of categories on front page **/
+.numberofcourse {
+    float: right;
+}
+
+.categorybox .category {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.categorylist {
+    border-bottom: 1px solid grey;
+}
+
+.categorybox .category a {
+    text-decoration: none;
+}
+
+/** List of categories on /course/index.php page **/
+.path-course .categorybox .category {
+    border-bottom: none;
+}
+
+/** All central boxes on main site page **/
+.path-site #region-main .generalbox {
+    border: none;
+}
+
+.generalbox {
+    border: none;
+}
+
+/** Fixes issue with images not wrapping properly in labels **/
+.no-overflow {
+    overflow: visible;
+}
+
+/** General notices across the site **/
+div#notice.box.generalbox {
+    border: none;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#page-enrol-index h2.main {
+    text-align: center;
+}
+
+/** Course category list **/
+#page-course-category .region-content {
+    margin-right: 10px;
+}
+
+#page-course-category .generalbox {
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#page-course-category .categorypicker {
+    text-align: center;
+}
+
+/** Buttons all center aligned**/
+.buttons {
+    text-align: center;
+}
+
+.singlebutton {
+    text-align: center;
+}
+
+/** Borders around forms **/
+.mform fieldset {
+    border-color: #198384;
+}
+
+/** Boxes on admin pages **/
+.path-admin .generalbox {
+    border: none;
+}
+
+/** Tables on admin pages **/
+.path-admin .generaltable tr {
+    border-top: 1px solid #198384;
+    border-bottom: 1px solid #198384;
+}
+
+/** Descriptions on admin pages **/
+.path-admin .form-description {
+    color: #444444;
+    font-size: 0.9em;
+    padding-left: 10px;
+}
+
+.path-admin .form-label {
+    font-size: 1em;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.path-admin .form-label .form-shortname {
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+/* ---------------- Theme splash page from lang file ---------------- */
+
+.theme_screenshot h2 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.theme_screenshot {
+    float: left;
+    width: 310px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.theme_screenshot img {
+    max-width: 300px;
+    border: 1px solid black;
+     -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}

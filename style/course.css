@@ -1,0 +1,75 @@
+/** Central content in the course box **/
+.course-content .main .content {
+    background-color: #FFFFFF;
+    padding: 5px;
+    color: #000000;
+}
+
+/** General course boxes **/
+.course-content .main {
+    background-color: #FFFFFF;
+    border-color: #E6E6E6;
+    border-style: solid;
+    border-width: 1px;
+    color: #CCCCCC;
+}
+
+/**  Highlighted course box **/
+.course-content .current {
+    background-color: #198384;
+    border-color: #198384;
+    border-style: solid;
+    border-width: 1px;
+    color: #FFFFFF;
+}
+
+/** Formatting for hidden course box **/
+.course-content .hidden {
+    opacity: 0.5;
+    background-color: #FFFFFF;
+    border-color: #CCCCCC;
+    border-style: dashed;
+    border-width: 1px;
+    color: #CCCCCC;
+}
+
+/** Fixes the 2em indent on all activities in course **/
+.course-content .content ul, ol, dl {
+    margin-left: 1em;
+}
+
+/** Activity completion checkboxes positioning **/
+.path-course-view li.activity span.autocompletion,
+.path-course-view li.activity form.togglecompletion {
+    right: -15px;
+}
+
+/** Topic outline box at top of course page **/
+.path-course-view .headingblock {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: none;
+}
+
+/** Completion progress words **/
+.path-course-view .completionprogress {
+    display: none;
+}
+
+/** Conditional or availability information of activities and resources in a course **/
+.availabilityinfo {
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px dashed grey;
+    opacity: 0.5;
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+/** Jump menu **/
+.jumpmenu {
+    margin-top: 10px;
+}

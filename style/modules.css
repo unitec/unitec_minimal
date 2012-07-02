@@ -1,0 +1,152 @@
+/* Fixes the main region going all the way over to the very right of
+  the page when viewing a forum post etc */
+.path-mod #region-main .region-content {
+    margin-right: 10px;
+}
+
+/** Initial bars (first and last initial) **/
+.initialbar {
+    text-align: center;
+}
+
+/** Page numbers **/
+.paging {
+    text-align: center;
+}
+
+/** Tab trees in all modules **/
+.tabtree li {
+    border-top: 1px solid #E6E6E6;
+    border-left: 1px solid #E6E6E6;
+    border-right: 1px solid #E6E6E6;
+    border-bottom: none;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.tabtree {
+    margin-bottom: 0.5em;
+}
+
+.tabtree ul {
+    text-align: center;
+    border-bottom: 2px solid #E6E6E6;
+}
+
+/** General box in all mods **/
+.path-mod .generalbox {
+    border: none;
+}
+
+/** Forums **/
+/* Prevents long words from pushing table off the page */
+.path-mod-forum .forumheaderlist .discussion .starter {
+    overflow: hidden;
+    max-width: 350px;
+}
+
+/* Add new discussion topic button */
+#page-mod-forum-view .forumaddnew {
+    text-align: center;
+}
+
+/* Forum table */
+.forumheaderlist thead {
+    background-color: #FFFFFF;
+    color: #198384;
+}
+
+.path-mod-forum .forumheaderlist {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #198384;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #E6E6E6;
+}
+
+.path-mod-forum .forumheaderlist td {
+    border-style: solid;
+    border-width: 1px 0 0 1px;
+    border-color: #E6E6E6;
+}
+
+/* Forum posts */
+.forumpost {
+    border-color: #E6E6E6;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #E6E6E6;
+    margin-right: 5px;
+}
+
+.forumpost .header {
+    background-color: #FFFFFF;
+    color: #198384;
+}
+
+.forumpost .header a {
+    color: #198384;
+}
+
+.forumpost .maincontent {
+    padding-top: 5px;
+}
+
+
+/** Lessons **/
+/* Centers the buttons */
+.path-mod-lesson .branchbuttoncontainer {
+    text-align: center;
+}
+/* Progress bar */
+.path-mod-lesson .progress_bar {
+    padding: 20px;
+}
+
+.path-mod-lesson .progress_bar_table {
+    width: 80%;
+}
+
+.path-mod-lesson .progress_bar_table, .path-mod-lesson .progress_bar_completed, .path-mod-lesson .progress_bar_todo {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+.path-mod-lesson .progress_bar_completed {
+    background-color: #198384;
+}
+
+.path-mod-lesson .progress_bar_table .lastcol {
+    background-color: #CCCCCC;
+}
+
+.path-mod-lesson .progress_bar_token {
+    background-color: #FFFFFF;
+}
+
+/** Assignments **/
+/* Attempts table */
+#attempts tr {
+    border-top: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+/* Options form centered */
+.path-mod-assignment #mform1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/** Databases **/
+/* Fixes overlapping issue when viewing templates in database activity */
+.path-mod-data .littleintro {
+    margin-top: 20px;
+}

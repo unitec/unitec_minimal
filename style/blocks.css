@@ -1,0 +1,101 @@
+/** Fonts in block header **/
+.block .header h2 {
+    margin: 0;
+    color: #000000;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/** Fonts in block content **/
+.block .content {
+    color: #444444;
+    font-size: 0.9em;
+}
+
+.block .content a {
+    color: #444444;
+    text-decoration: none;
+}
+
+.block .content a:hover {
+    text-decoration: none;
+    color: #999999;
+}
+
+/** Borders and backgrounds **/
+.block {
+    border-width: 1px;
+    border-color: #198384;
+    border-style: solid;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #E6E6E6;
+}
+
+.block .header {
+    background-color: transparent;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+}
+
+/** Fixes the lines not wrapping in navigation block **/
+.block_navigation .block_tree li {
+    white-space: normal;
+}
+
+/** Sets padding around left block region **/
+#page-content #region-pre .region-content {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 0;
+}
+
+/** Sets padding around right block region **/
+#page-content #region-post .region-content {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 0;
+}
+
+/** Navigation block settings **/
+/* Indent of each level */
+.block_navigation .block_tree li.depth_2 ul {
+    padding-left: 5px;
+}
+
+/* Vertical margin between each item */
+.block_navigation .block_tree .tree_item {
+    margin: 2px 0;
+}
+
+/** Settings block **/
+/* Margin here should be twice the indent of the
+  Navigation block level
+*/
+.block_settings .block_tree li ul {
+    padding-left: 10px;
+    margin: 5px 0;
+}
+
+/** Calendar block **/
+.calendartable th, .calendartable td {
+    border-width: 0px;
+}
+
+.calendartable .weekdays {
+    border-top: 2px solid #198384;
+    border-bottom: 2px solid #198384;
+}
+
+/** Logged in user block **/
+.block_myprofile .content {
+    text-align: center;
+}
+
+/** Private files block **/
+.block_private_files .singlebutton {
+    text-align: center;
+}

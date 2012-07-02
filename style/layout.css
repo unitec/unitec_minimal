@@ -1,0 +1,53 @@
+/** Settings for page, set width for fixed width, remove for fluid **/
+#page {
+}
+
+/** Removes padding from around all region contents so that
+ * block padding can be set separately.
+**/
+#page-content .region-content {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
+
+/** Fixes padding when no blocks are present **/
+.content-only #page-content .region-content {
+    padding-left: 10px;
+}
+
+.side-post-only #page-content .region-content {
+    padding-left: 10px;
+}
+
+.side-pre-only #page-content .region-content {
+    padding-right: 10px;
+}
+
+/** Creates fixed width page in grade view, remove for fluid **/
+
+.pagelayout-report #page {
+    overflow: hidden;
+}
+
+/** Fixes padding in grade view **/
+
+.pagelayout-report #page-content .region-content {
+    padding-right: 10px;
+}
+
+.path-admin #page-content .region-content {
+    padding-right: 10px;
+}
+
+/** Creates sideways scroll if table is too big in course completion or gradebook **/
+.pagelayout-report #page-content .region-content {
+    overflow: auto;
+}
+
+/** Removing login info and Moodle button from bottom of page **/
+#page-footer .logininfo,
+#page-footer .sitelink,
+#page-footer .helplink {
+    display: none;
+}

@@ -1,0 +1,56 @@
+#dock {
+    background-color: #FFFFFF;
+    border-width: 1px;
+    border-color: #B3B3B3;
+    border-style: solid;
+}
+
+#dock .dockedtitle {
+    border: none;
+}
+
+#dock .dockedtitle h2 {
+    color: #000000;
+    text-transform: uppercase;
+}
+
+#dockeditempanel .dockeditempanel_content {
+    border-width: 1px;
+    border-color: #198384;
+    border-style: solid;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #E6E6E6;
+}
+
+#dockeditempanel .dockeditempanel_hd {
+    border-bottom: none;
+    background-color: transparent;
+}
+
+#dockeditempanel .dockeditempanel_hd h2 {
+    color: #000000;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/** Allows word-wrapping in dock **/
+#dockeditempanel .dockeditempanel_bd {
+    white-space: normal;
+}
+
+/** Fixes the issue where nav block doesn't word-wrap in dock **/
+.dock .block_navigation .tree_item {
+    white-space: normal;
+}
+
+/** Navigation block settings **/
+/* Indent of each level */
+.dock .block_navigation .block_tree li.depth_2 ul {
+    padding-left: 5px;
+}
+
+/* Vertical margin between each item */
+.dock .block_navigation .block_tree .tree_item {
+    margin: 0;
+}
