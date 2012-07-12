@@ -34,7 +34,7 @@
 }
 
 /** Fixes the 2em indent on all activities in course **/
-.course-content .content ul, ol, dl {
+.course-content .content ul {
     margin-left: 1em;
 }
 

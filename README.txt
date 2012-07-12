@@ -14,6 +14,9 @@ My aim is to have this theme fully
 compatible with all versions of Moodle 2.
 
 *************** Updates ****************
+12/07/12
+- Fixed indent on ordered list in activities.
+
 03/07/12
 - Department name now works to call top
   level category that the course is in.
