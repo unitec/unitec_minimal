@@ -16,6 +16,7 @@ compatible with all versions of Moodle 2.
 *************** Updates ****************
 12/07/12
 - Fixed indent on ordered list in activities.
+- Better code for fixing floating images.
 
 03/07/12
 - Department name now works to call top

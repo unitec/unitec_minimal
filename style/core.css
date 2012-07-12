@@ -230,11 +230,6 @@ div.redirectmessage {
     border: none;
 }
 
-/** Fixes issue with images not wrapping properly in labels **/
-.no-overflow {
-    overflow: visible;
-}
-
 /** General notices across the site **/
 div#notice.box.generalbox {
     border: none;
