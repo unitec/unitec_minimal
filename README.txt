@@ -14,6 +14,9 @@ My aim is to have this theme fully
 compatible with all versions of Moodle 2.
 
 *************** Updates ****************
+17/07/12
+- Fixed overflow on assignment grading table.
+
 12/07/12
 - Fixed indent on ordered list in activities.
 - Better code for fixing floating images.
