@@ -17,6 +17,7 @@ compatible with all versions of Moodle 2.
 24/07/12
 - Used Yong's fix for error. Category display
   back.
+- All links back to blue.
 
 23/07/12
 - Added search box to front page.

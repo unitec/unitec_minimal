@@ -20,12 +20,12 @@ body {
 }
 
 a {
-    color: #198384;
+    color: #0000ff;
     text-decoration: none;
 }
 
 a:hover {
-    color: #000000;
+    color: #198384;
     text-decoration: none;
 }
 
@@ -104,12 +104,12 @@ h2.department {
 }
 
 .headermenu .logininfo a {
-    color: #000000;
+    color: #0000ff;
     text-decoration: none;
 }
 
 .headermenu .logininfo a:hover {
-    color: #0000FF;
+    color: #198384;
     text-decoration: none;
 }
 
@@ -154,32 +154,6 @@ h2.department {
 .continuebutton {
     text-align: center;
 }
-
-/* The div directly around the message */
-/*
-div.redirectmessage {
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    border-color: #FF0000;
-    border-width: 2px;
-    border-style: solid;
-    background-color: #FF6666;
-}
-*/
-
-/* The div around the message and continue button */
-/*
-.pagelayout-redirect #content {
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    border-color: #008040;
-    border-width: 2px;
-    border-style: solid;
-    background-color: #CCFF66;
-}
-*/
 
 /* The div for the whole redirect page */
 .pagelayout-redirect #page {

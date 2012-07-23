@@ -14,13 +14,13 @@
 }
 
 .block .content a {
-    color: #444444;
+    color: #0000FF;
     text-decoration: none;
 }
 
 .block .content a:hover {
     text-decoration: none;
-    color: #999999;
+    color: #198384;
 }
 
 /** Borders and backgrounds **/
