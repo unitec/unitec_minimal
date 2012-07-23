@@ -16,6 +16,8 @@ compatible with all versions of Moodle 2.
 *************** Updates ****************
 23/07/12
 - Added search box to front page.
+- Removed category display as causing error
+  messages in debug mode.
 
 17/07/12
 - Fixed overflow on assignment grading table.
