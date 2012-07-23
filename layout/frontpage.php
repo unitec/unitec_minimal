@@ -46,13 +46,16 @@ echo $OUTPUT->doctype() ?>
                         <h1 class="headermain"><?php echo $PAGE->heading ?></h1>
                         <h2 class="department">
                             <?php
-//                            global $DB;   //makes sure the database is available
-//                            $category = $DB->get_record('course_categories',array('id'=>$COURSE->category));    //gets the database record from the course_categories table for the active course
-//                            $cats=explode("/",$category->path);    // splits the category path into an array so that each level in the categories is a different level in the array
-//                            $depth=1;    // what depth of sub-category you want to display: Note this may need some error trapping to ensure there are that many levels of subcategories for the course - or setting a default value if not
-//                            $categorydepth = $DB->get_record("course_categories", array("id" => $cats[$depth]) );    //gets the database record for the course_category with the id number set by $depth position in the array of the category path for the active path
-//                            $categoryname = $categorydepth->name;    //sets a variable name for the set depth of subcategory ready to be displayed as required
-//                            echo $categoryname;
+                            global $DB;   //makes sure the database is available
+                            $category = $DB->get_record('course_categories',array('id'=>$COURSE->category));
+                            if(empty($category))  {echo "Unitec eLearning Platform";
+                            }else{ //gets the database record from the course_categories table for the active course
+                                $cats=explode("/",$category->path);    // splits the category path into an array so that each level in the categories is a different level in the array
+                                $depth=1;    // what depth of sub-category you want to display: Note this may need some error trapping to ensure there are that many levels of subcategories for the course - or setting a default value if not
+                                $categorydepth = $DB->get_record("course_categories", array("id" => $cats[$depth]) );    //gets the database record for the course_category with the id number set by $depth position in the array of the category path for the active path
+                                $categoryname = $categorydepth->name;    //sets a variable name for the set depth of subcategory ready to be displayed as required
+                                echo $categoryname;
+                            }
                             ?>
                         </h2>
                     </div>
