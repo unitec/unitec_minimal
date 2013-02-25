@@ -97,6 +97,14 @@
     padding-top: 5px;
 }
 
+#page-mod-forum-view .unread, .forumpost.unread .row.header, .path-course-view .unread, span.unread {
+    color: black;
+}
+
+.forumpost.unread .row.header a {
+    color: black;
+}
+
 
 /** Lessons **/
 /* Centers the buttons */

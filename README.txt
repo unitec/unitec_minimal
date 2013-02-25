@@ -14,6 +14,10 @@ My aim is to have this theme fully
 compatible with all versions of Moodle 2.
 
 *************** Updates ****************
+26/02/13
+- Unread forum post headers can now be
+  seen easily (font black).
+
 24/07/12
 - Used Yong's fix for error. Category display
   back.
